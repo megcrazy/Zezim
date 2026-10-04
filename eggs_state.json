@@ -1,0 +1,2184 @@
+{
+  "long": [
+    [
+      "SKRUSDT",
+      {
+        "symbol": "SKRUSDT",
+        "type": "LONG",
+        "detectedAt": 1790989230418,
+        "price": 0.017015,
+        "stochH4": 19.297750789463542,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791051383509,
+          "score": 25,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "ONUSDT",
+      {
+        "symbol": "ONUSDT",
+        "type": "LONG",
+        "detectedAt": 1790993350687,
+        "price": 0.1043,
+        "stochH4": 19.21039664942102,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791020246267,
+          "score": 15,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "ATUSDT",
+      {
+        "symbol": "ATUSDT",
+        "type": "LONG",
+        "detectedAt": 1790998850060,
+        "price": 0.1504,
+        "stochH4": 19.04037330087252,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "AAVEUSDT",
+      {
+        "symbol": "AAVEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791000439718,
+        "price": 178.6,
+        "stochH4": 17.596510682930752,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791074993898,
+          "score": 20,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "DRAMUSDT",
+      {
+        "symbol": "DRAMUSDT",
+        "type": "LONG",
+        "detectedAt": 1791000452426,
+        "price": 61.31,
+        "stochH4": 13.071348940914291,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "MRVLUSDT",
+      {
+        "symbol": "MRVLUSDT",
+        "type": "LONG",
+        "detectedAt": 1791000477822,
+        "price": 272.61,
+        "stochH4": 18.0079845581886,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791067797151,
+          "score": 15,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "MVLLUSDT",
+      {
+        "symbol": "MVLLUSDT",
+        "type": "LONG",
+        "detectedAt": 1791000504137,
+        "price": 37.97,
+        "stochH4": 17.46976131556669,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791067927378,
+          "score": 0,
+          "blockers": [
+            "volume",
+            "estrutura",
+            "lsr"
+          ]
+        }
+      }
+    ],
+    [
+      "IRENUSDT",
+      {
+        "symbol": "IRENUSDT",
+        "type": "LONG",
+        "detectedAt": 1791000534730,
+        "price": 41.32,
+        "stochH4": 18.178328263074008,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791071524538,
+          "score": 40,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "BULLAUSDT",
+      {
+        "symbol": "BULLAUSDT",
+        "type": "LONG",
+        "detectedAt": 1791000603360,
+        "price": 0.08116,
+        "stochH4": 11.7119558221558,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "CYSUSDT",
+      {
+        "symbol": "CYSUSDT",
+        "type": "LONG",
+        "detectedAt": 1791000608238,
+        "price": 0.1654,
+        "stochH4": 12.700085302824872,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "STABLEUSDT",
+      {
+        "symbol": "STABLEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791000647171,
+        "price": 0.02707,
+        "stochH4": 19.79044834308006,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "CXMTUSDT",
+      {
+        "symbol": "CXMTUSDT",
+        "type": "LONG",
+        "detectedAt": 1791000676834,
+        "price": 8.42,
+        "stochH4": 19.607843137254985,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "RAMUSDT",
+      {
+        "symbol": "RAMUSDT",
+        "type": "LONG",
+        "detectedAt": 1791000692675,
+        "price": 14.17,
+        "stochH4": 19.69223132290892,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "BRUSDT",
+      {
+        "symbol": "BRUSDT",
+        "type": "LONG",
+        "detectedAt": 1791001064099,
+        "price": 0.62669,
+        "stochH4": 17.095538142150378,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "PHAUSDT",
+      {
+        "symbol": "PHAUSDT",
+        "type": "LONG",
+        "detectedAt": 1791001656302,
+        "price": 0.07071,
+        "stochH4": 19.819819819819767,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "CRWVUSDT",
+      {
+        "symbol": "CRWVUSDT",
+        "type": "LONG",
+        "detectedAt": 1791002250123,
+        "price": 89.35,
+        "stochH4": 19.972697056030466,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "NOMUSDT",
+      {
+        "symbol": "NOMUSDT",
+        "type": "LONG",
+        "detectedAt": 1791008871312,
+        "price": 0.002409,
+        "stochH4": 16.598275432537438,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ESPUSDT",
+      {
+        "symbol": "ESPUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014415465,
+        "price": 0.10168,
+        "stochH4": 16.338880484114963,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ERAUSDT",
+      {
+        "symbol": "ERAUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014433464,
+        "price": 0.06441,
+        "stochH4": 19.60425383542539,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791072175250,
+          "score": 75,
+          "blockers": [
+            "volume"
+          ]
+        }
+      }
+    ],
+    [
+      "MINIMAXUSDT",
+      {
+        "symbol": "MINIMAXUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014442562,
+        "price": 30.39,
+        "stochH4": 7.256675279931471,
+        "strength": "EXTREMO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "PLAYUSDT",
+      {
+        "symbol": "PLAYUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014457116,
+        "price": 0.03068,
+        "stochH4": 19.746024018175845,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "WAXPUSDT",
+      {
+        "symbol": "WAXPUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014459386,
+        "price": 0.00622,
+        "stochH4": 16.885389326334124,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "SKYAIUSDT",
+      {
+        "symbol": "SKYAIUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014469458,
+        "price": 0.04129,
+        "stochH4": 11.562039590869361,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "UNITREEUSDT",
+      {
+        "symbol": "UNITREEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014517519,
+        "price": 68.08,
+        "stochH4": 7.097701149425262,
+        "strength": "EXTREMO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "JELLYJELLYUSDT",
+      {
+        "symbol": "JELLYJELLYUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014522859,
+        "price": 0.05692,
+        "stochH4": 16.733601070950304,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "CSOPSKHYNIX2LUSDT",
+      {
+        "symbol": "CSOPSKHYNIX2LUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014538400,
+        "price": 5.356,
+        "stochH4": 13.197358197358087,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ZEREBROUSDT",
+      {
+        "symbol": "ZEREBROUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014552058,
+        "price": 0.031143,
+        "stochH4": 17.922730390051232,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "AIAUSDT",
+      {
+        "symbol": "AIAUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014559534,
+        "price": 0.0702,
+        "stochH4": 10.987767118420493,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "MUSDT",
+      {
+        "symbol": "MUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014563838,
+        "price": 1.0354,
+        "stochH4": 9.921843877211563,
+        "strength": "EXTREMO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "TRUSTUSDT",
+      {
+        "symbol": "TRUSTUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014567154,
+        "price": 0.06048,
+        "stochH4": 11.428540333463992,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ELSAUSDT",
+      {
+        "symbol": "ELSAUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014569984,
+        "price": 0.05313,
+        "stochH4": 11.090078883729484,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "SKHYNIXUSDT",
+      {
+        "symbol": "SKHYNIXUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014824856,
+        "price": 1364.32,
+        "stochH4": 18.614155610330492,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791068260727,
+          "score": 15,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "ASTERUSDT",
+      {
+        "symbol": "ASTERUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014848230,
+        "price": 0.7083,
+        "stochH4": 18.303833137592715,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791071867161,
+          "score": 5,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "MONUSDT",
+      {
+        "symbol": "MONUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014860648,
+        "price": 0.03122,
+        "stochH4": 18.518518518518487,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791075050141,
+          "score": 20,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "MAGICUSDT",
+      {
+        "symbol": "MAGICUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014877579,
+        "price": 0.05665,
+        "stochH4": 13.714080455051686,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "WLFIUSDT",
+      {
+        "symbol": "WLFIUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014899036,
+        "price": 0.05434,
+        "stochH4": 16.812947401182672,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791075114789,
+          "score": 30,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "SPKUSDT",
+      {
+        "symbol": "SPKUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014908964,
+        "price": 0.025,
+        "stochH4": 17.414186743685683,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "BOMEUSDT",
+      {
+        "symbol": "BOMEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014917436,
+        "price": 0.0009958,
+        "stochH4": 17.17554144276175,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "TRUTHUSDT",
+      {
+        "symbol": "TRUTHUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014940758,
+        "price": 0.014419,
+        "stochH4": 15.630566383035516,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "VTHOUSDT",
+      {
+        "symbol": "VTHOUSDT",
+        "type": "LONG",
+        "detectedAt": 1791014970893,
+        "price": 0.0006493,
+        "stochH4": 12.591818599936559,
+        "strength": "FORTE",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791073280114,
+          "score": 40,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "HUSDT",
+      {
+        "symbol": "HUSDT",
+        "type": "LONG",
+        "detectedAt": 1791015021274,
+        "price": 0.06958,
+        "stochH4": 14.306561996779541,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "STEEMUSDT",
+      {
+        "symbol": "STEEMUSDT",
+        "type": "LONG",
+        "detectedAt": 1791015039415,
+        "price": 0.06245,
+        "stochH4": 13.756613756613776,
+        "strength": "FORTE",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791072079084,
+          "score": 5,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "KGENUSDT",
+      {
+        "symbol": "KGENUSDT",
+        "type": "LONG",
+        "detectedAt": 1791015696086,
+        "price": 0.1601,
+        "stochH4": 19.141914191419144,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "MOVRUSDT",
+      {
+        "symbol": "MOVRUSDT",
+        "type": "LONG",
+        "detectedAt": 1791015971956,
+        "price": 1.8548,
+        "stochH4": 19.488564883466225,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791058825015,
+          "score": 10,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "PHAROSUSDT",
+      {
+        "symbol": "PHAROSUSDT",
+        "type": "LONG",
+        "detectedAt": 1791017382530,
+        "price": 0.7272,
+        "stochH4": 19.92872416250898,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "BABYUSDT",
+      {
+        "symbol": "BABYUSDT",
+        "type": "LONG",
+        "detectedAt": 1791028817289,
+        "price": 0.01336,
+        "stochH4": 13.761337868480718,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "SHELLUSDT",
+      {
+        "symbol": "SHELLUSDT",
+        "type": "LONG",
+        "detectedAt": 1791028833702,
+        "price": 0.0241,
+        "stochH4": 17.480798771121318,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "TACUSDT",
+      {
+        "symbol": "TACUSDT",
+        "type": "LONG",
+        "detectedAt": 1791028849219,
+        "price": 0.001501,
+        "stochH4": 14.764129951045824,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ZESTUSDT",
+      {
+        "symbol": "ZESTUSDT",
+        "type": "LONG",
+        "detectedAt": 1791028876117,
+        "price": 0.18748,
+        "stochH4": 14.58951454667578,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "SIGNUSDT",
+      {
+        "symbol": "SIGNUSDT",
+        "type": "LONG",
+        "detectedAt": 1791028890512,
+        "price": 0.012417,
+        "stochH4": 15.220330523260193,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "MAGMAUSDT",
+      {
+        "symbol": "MAGMAUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029227331,
+        "price": 0.23001,
+        "stochH4": 11.730683234304133,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "SKHYUSDT",
+      {
+        "symbol": "SKHYUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029232881,
+        "price": 192.87,
+        "stochH4": 16.88908021236922,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791071886816,
+          "score": 0,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "NMRUSDT",
+      {
+        "symbol": "NMRUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029296219,
+        "price": 11.251,
+        "stochH4": 9.826186538916172,
+        "strength": "EXTREMO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "BIGTIMEUSDT",
+      {
+        "symbol": "BIGTIMEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029310044,
+        "price": 0.00906,
+        "stochH4": 19.03807615230461,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ACEUSDT",
+      {
+        "symbol": "ACEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029332033,
+        "price": 0.18185,
+        "stochH4": 9.120367926821338,
+        "strength": "EXTREMO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "PROMUSDT",
+      {
+        "symbol": "PROMUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029349558,
+        "price": 6.208,
+        "stochH4": 9.770389913377892,
+        "strength": "EXTREMO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "OPNUSDT",
+      {
+        "symbol": "OPNUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029356881,
+        "price": 0.055,
+        "stochH4": 14.112667583830108,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "DATAIPUSDT",
+      {
+        "symbol": "DATAIPUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029358999,
+        "price": 0.2114,
+        "stochH4": 11.122849790058174,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ALLOUSDT",
+      {
+        "symbol": "ALLOUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029373354,
+        "price": 0.26521,
+        "stochH4": 17.457074572948347,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "IOSTUSDT",
+      {
+        "symbol": "IOSTUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029389787,
+        "price": 0.0008381,
+        "stochH4": 5.427647288112408,
+        "strength": "EXTREMO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "KAVAUSDT",
+      {
+        "symbol": "KAVAUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029409231,
+        "price": 0.06831,
+        "stochH4": 9.588626739261302,
+        "strength": "EXTREMO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ACNUSDT",
+      {
+        "symbol": "ACNUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029552262,
+        "price": 199.98,
+        "stochH4": 19.849814276237034,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "LSKUSDT",
+      {
+        "symbol": "LSKUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029833825,
+        "price": 0.27813,
+        "stochH4": 19.724905282700977,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "EDENUSDT",
+      {
+        "symbol": "EDENUSDT",
+        "type": "LONG",
+        "detectedAt": 1791029961475,
+        "price": 0.05596,
+        "stochH4": 18.842990257079574,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791075254264,
+          "score": 10,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "BANDUSDT",
+      {
+        "symbol": "BANDUSDT",
+        "type": "LONG",
+        "detectedAt": 1791030621924,
+        "price": 0.2203,
+        "stochH4": 19.673274171391544,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "AVAAIUSDT",
+      {
+        "symbol": "AVAAIUSDT",
+        "type": "LONG",
+        "detectedAt": 1791030638921,
+        "price": 0.009633,
+        "stochH4": 19.74713725794675,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "MAVUSDT",
+      {
+        "symbol": "MAVUSDT",
+        "type": "LONG",
+        "detectedAt": 1791030690922,
+        "price": 0.011332,
+        "stochH4": 19.0996730343288,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "USDCUSDT",
+      {
+        "symbol": "USDCUSDT",
+        "type": "LONG",
+        "detectedAt": 1791031155767,
+        "price": 0.999591,
+        "stochH4": 12.080758512082975,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "SOXLUSDT",
+      {
+        "symbol": "SOXLUSDT",
+        "type": "LONG",
+        "detectedAt": 1791031561175,
+        "price": 162.45,
+        "stochH4": 18.861539134415192,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791067037905,
+          "score": 5,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "APEUSDT",
+      {
+        "symbol": "APEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791031595192,
+        "price": 0.162,
+        "stochH4": 19.59470781515245,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "TUTUSDT",
+      {
+        "symbol": "TUTUSDT",
+        "type": "LONG",
+        "detectedAt": 1791033477207,
+        "price": 0.02395,
+        "stochH4": 19.272147117224236,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791064360473,
+          "score": 30,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "SOONUSDT",
+      {
+        "symbol": "SOONUSDT",
+        "type": "LONG",
+        "detectedAt": 1791035207360,
+        "price": 0.3679,
+        "stochH4": 19.229897637288357,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791047540998,
+          "score": 0,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "CRDOUSDT",
+      {
+        "symbol": "CRDOUSDT",
+        "type": "LONG",
+        "detectedAt": 1791038942169,
+        "price": 216.36,
+        "stochH4": 18.888271586095424,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "BASUSDT",
+      {
+        "symbol": "BASUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043216776,
+        "price": 0.023371,
+        "stochH4": 18.33102994445882,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "GALAUSDT",
+      {
+        "symbol": "GALAUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043618293,
+        "price": 0.002527,
+        "stochH4": 18.940587207544365,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "RESOLVUSDT",
+      {
+        "symbol": "RESOLVUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043634518,
+        "price": 0.01963,
+        "stochH4": 10.717100078802233,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "AKEUSDT",
+      {
+        "symbol": "AKEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043636135,
+        "price": 0.032074,
+        "stochH4": 14.534522073769715,
+        "strength": "FORTE",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791067651389,
+          "score": 20,
+          "blockers": [
+            "volume",
+            "estrutura",
+            "lsr"
+          ]
+        }
+      }
+    ],
+    [
+      "AXSUSDT",
+      {
+        "symbol": "AXSUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043638490,
+        "price": 1.1971,
+        "stochH4": 18.98137038231651,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ALICEUSDT",
+      {
+        "symbol": "ALICEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043643931,
+        "price": 0.1731,
+        "stochH4": 13.434328708765642,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "CAPUSDT",
+      {
+        "symbol": "CAPUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043651699,
+        "price": 0.06928,
+        "stochH4": 9.831320400358848,
+        "strength": "EXTREMO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "POWERUSDT",
+      {
+        "symbol": "POWERUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043676547,
+        "price": 0.08511,
+        "stochH4": 16.642657287747735,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "OPGUSDT",
+      {
+        "symbol": "OPGUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043679849,
+        "price": 0.1303,
+        "stochH4": 16.66666666666686,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "FLOCKUSDT",
+      {
+        "symbol": "FLOCKUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043698741,
+        "price": 0.06295,
+        "stochH4": 13.756613756614003,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "AXTIUSDT",
+      {
+        "symbol": "AXTIUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043720665,
+        "price": 84.96,
+        "stochH4": 17.016418241742453,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791071508216,
+          "score": 25,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "TUSDT",
+      {
+        "symbol": "TUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043724626,
+        "price": 0.005406,
+        "stochH4": 19.230398264057836,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ONGUSDT",
+      {
+        "symbol": "ONGUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043739187,
+        "price": 0.08964,
+        "stochH4": 16.250853095141647,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791072041777,
+          "score": 30,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "BEAMXUSDT",
+      {
+        "symbol": "BEAMXUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043756522,
+        "price": 0.002105,
+        "stochH4": 17.033525758357946,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "SQQQUSDT",
+      {
+        "symbol": "SQQQUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043769568,
+        "price": 33.06,
+        "stochH4": 11.904761904761743,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "SLXUSDT",
+      {
+        "symbol": "SLXUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043792203,
+        "price": 0.06262,
+        "stochH4": 19.61728016111134,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "RIFUSDT",
+      {
+        "symbol": "RIFUSDT",
+        "type": "LONG",
+        "detectedAt": 1791043826231,
+        "price": 0.08104,
+        "stochH4": 14.61590594885899,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "CTUSDT",
+      {
+        "symbol": "CTUSDT",
+        "type": "LONG",
+        "detectedAt": 1791044171885,
+        "price": 0.48476,
+        "stochH4": 17.838228921177382,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "GTCUSDT",
+      {
+        "symbol": "GTCUSDT",
+        "type": "LONG",
+        "detectedAt": 1791044768521,
+        "price": 0.11404,
+        "stochH4": 9.264983074668008,
+        "strength": "EXTREMO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "MINAUSDT",
+      {
+        "symbol": "MINAUSDT",
+        "type": "LONG",
+        "detectedAt": 1791044823490,
+        "price": 0.15792,
+        "stochH4": 19.245273676614794,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "RAVEUSDT",
+      {
+        "symbol": "RAVEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791044915470,
+        "price": 0.1913,
+        "stochH4": 19.926771308223444,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "UBUSDT",
+      {
+        "symbol": "UBUSDT",
+        "type": "LONG",
+        "detectedAt": 1791045528706,
+        "price": 0.13278,
+        "stochH4": 19.87103553081631,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "USUSDT",
+      {
+        "symbol": "USUSDT",
+        "type": "LONG",
+        "detectedAt": 1791047801487,
+        "price": 0.020838,
+        "stochH4": 18.306284511442573,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "QUSDT",
+      {
+        "symbol": "QUSDT",
+        "type": "LONG",
+        "detectedAt": 1791055629897,
+        "price": 0.021386,
+        "stochH4": 19.20608755003609,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "HEIUSDT",
+      {
+        "symbol": "HEIUSDT",
+        "type": "LONG",
+        "detectedAt": 1791055730306,
+        "price": 0.13714,
+        "stochH4": 11.669547189694716,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "HOMEUSDT",
+      {
+        "symbol": "HOMEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791057520985,
+        "price": 0.005602,
+        "stochH4": 19.90757919329348,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "OPENUSDT",
+      {
+        "symbol": "OPENUSDT",
+        "type": "LONG",
+        "detectedAt": 1791058124517,
+        "price": 0.1147,
+        "stochH4": 4.1956241956241636,
+        "strength": "EXTREMO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "YGGUSDT",
+      {
+        "symbol": "YGGUSDT",
+        "type": "LONG",
+        "detectedAt": 1791058142758,
+        "price": 0.02732,
+        "stochH4": 13.228439899590965,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "BERAUSDT",
+      {
+        "symbol": "BERAUSDT",
+        "type": "LONG",
+        "detectedAt": 1791058191455,
+        "price": 0.2269,
+        "stochH4": 19.37315298931581,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "EDUUSDT",
+      {
+        "symbol": "EDUUSDT",
+        "type": "LONG",
+        "detectedAt": 1791058267254,
+        "price": 0.05099,
+        "stochH4": 18.25721977692717,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "RONINUSDT",
+      {
+        "symbol": "RONINUSDT",
+        "type": "LONG",
+        "detectedAt": 1791058280235,
+        "price": 0.06581,
+        "stochH4": 14.084023505208512,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "GPSUSDT",
+      {
+        "symbol": "GPSUSDT",
+        "type": "LONG",
+        "detectedAt": 1791058287317,
+        "price": 0.01033,
+        "stochH4": 18.404879838561843,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "SLPUSDT",
+      {
+        "symbol": "SLPUSDT",
+        "type": "LONG",
+        "detectedAt": 1791058297800,
+        "price": 0.0006954,
+        "stochH4": 15.71451186352296,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "CHRUSDT",
+      {
+        "symbol": "CHRUSDT",
+        "type": "LONG",
+        "detectedAt": 1791058299419,
+        "price": 0.02269,
+        "stochH4": 13.631346578366417,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "GRIFFAINUSDT",
+      {
+        "symbol": "GRIFFAINUSDT",
+        "type": "LONG",
+        "detectedAt": 1791058307474,
+        "price": 0.0164,
+        "stochH4": 16.62049861495835,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "BTCDOMUSDT",
+      {
+        "symbol": "BTCDOMUSDT",
+        "type": "LONG",
+        "detectedAt": 1791058333990,
+        "price": 5174.4,
+        "stochH4": 11.893837387096333,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "TRUMPUSDT",
+      {
+        "symbol": "TRUMPUSDT",
+        "type": "LONG",
+        "detectedAt": 1791058576146,
+        "price": 2.045,
+        "stochH4": 19.806811036702122,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "INTWUSDT",
+      {
+        "symbol": "INTWUSDT",
+        "type": "LONG",
+        "detectedAt": 1791059956864,
+        "price": 30.19,
+        "stochH4": 16.995884773662567,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "PROVEUSDT",
+      {
+        "symbol": "PROVEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791059958534,
+        "price": 0.215,
+        "stochH4": 18.11831789023523,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "我踏马来了USDT",
+      {
+        "symbol": "我踏马来了USDT",
+        "type": "LONG",
+        "detectedAt": 1791059959902,
+        "price": 0.011333,
+        "stochH4": 19.987759998020284,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "HPEUSDT",
+      {
+        "symbol": "HPEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791059986536,
+        "price": 69.51,
+        "stochH4": 17.112503774363997,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791072722543,
+          "score": 0,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "牛来USDT",
+      {
+        "symbol": "牛来USDT",
+        "type": "LONG",
+        "detectedAt": 1791060380882,
+        "price": 0.07846,
+        "stochH4": 19.336143182082942,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "INTCUSDT",
+      {
+        "symbol": "INTCUSDT",
+        "type": "LONG",
+        "detectedAt": 1791060414502,
+        "price": 118.04,
+        "stochH4": 10.087963061926837,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "SCRUSDT",
+      {
+        "symbol": "SCRUSDT",
+        "type": "LONG",
+        "detectedAt": 1791060425844,
+        "price": 0.02537,
+        "stochH4": 9.83432951016817,
+        "strength": "EXTREMO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "STXXUSDT",
+      {
+        "symbol": "STXXUSDT",
+        "type": "LONG",
+        "detectedAt": 1791060500853,
+        "price": 839.22,
+        "stochH4": 18.59561994823707,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791072671835,
+          "score": 20,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "PYTHUSDT",
+      {
+        "symbol": "PYTHUSDT",
+        "type": "LONG",
+        "detectedAt": 1791061021588,
+        "price": 0.07773,
+        "stochH4": 17.511777384030616,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "TRIAUSDT",
+      {
+        "symbol": "TRIAUSDT",
+        "type": "LONG",
+        "detectedAt": 1791061765949,
+        "price": 0.004114,
+        "stochH4": 19.42211207157092,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "BASEDUSDT",
+      {
+        "symbol": "BASEDUSDT",
+        "type": "LONG",
+        "detectedAt": 1791061802682,
+        "price": 0.06163,
+        "stochH4": 18.79608311469818,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "PIPPINUSDT",
+      {
+        "symbol": "PIPPINUSDT",
+        "type": "LONG",
+        "detectedAt": 1791062916429,
+        "price": 0.01846,
+        "stochH4": 19.01875901875909,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "C98USDT",
+      {
+        "symbol": "C98USDT",
+        "type": "LONG",
+        "detectedAt": 1791063590671,
+        "price": 0.01629,
+        "stochH4": 19.79039479039474,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "STOUSDT",
+      {
+        "symbol": "STOUSDT",
+        "type": "LONG",
+        "detectedAt": 1791063619433,
+        "price": 0.04089,
+        "stochH4": 12.934865469396032,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ARIAUSDT",
+      {
+        "symbol": "ARIAUSDT",
+        "type": "LONG",
+        "detectedAt": 1791070011540,
+        "price": 0.03546,
+        "stochH4": 18.2603177096313,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "NIGHTUSDT",
+      {
+        "symbol": "NIGHTUSDT",
+        "type": "LONG",
+        "detectedAt": 1791072186438,
+        "price": 0.04807,
+        "stochH4": 15.45888305520353,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "PUMPBTCUSDT",
+      {
+        "symbol": "PUMPBTCUSDT",
+        "type": "LONG",
+        "detectedAt": 1791072203184,
+        "price": 0.00844,
+        "stochH4": 16.94160315550208,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "CHZUSDT",
+      {
+        "symbol": "CHZUSDT",
+        "type": "LONG",
+        "detectedAt": 1791072219154,
+        "price": 0.017,
+        "stochH4": 17.235542235542358,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "IMXUSDT",
+      {
+        "symbol": "IMXUSDT",
+        "type": "LONG",
+        "detectedAt": 1791072232922,
+        "price": 0.183,
+        "stochH4": 13.801824911960884,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "EPICUSDT",
+      {
+        "symbol": "EPICUSDT",
+        "type": "LONG",
+        "detectedAt": 1791072323140,
+        "price": 0.5147,
+        "stochH4": 18.31516120852749,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ACHUSDT",
+      {
+        "symbol": "ACHUSDT",
+        "type": "LONG",
+        "detectedAt": 1791072358099,
+        "price": 0.006265,
+        "stochH4": 14.465850126809043,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "APRUSDT",
+      {
+        "symbol": "APRUSDT",
+        "type": "LONG",
+        "detectedAt": 1791072359769,
+        "price": 0.1369,
+        "stochH4": 17.178443704525893,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ENJUSDT",
+      {
+        "symbol": "ENJUSDT",
+        "type": "LONG",
+        "detectedAt": 1791072838913,
+        "price": 0.03315,
+        "stochH4": 19.998203377649975,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "MEUSDT",
+      {
+        "symbol": "MEUSDT",
+        "type": "LONG",
+        "detectedAt": 1791072926143,
+        "price": 0.07806,
+        "stochH4": 18.951233853135232,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "MOCAUSDT",
+      {
+        "symbol": "MOCAUSDT",
+        "type": "LONG",
+        "detectedAt": 1791072960900,
+        "price": 0.010166,
+        "stochH4": 19.75018021265089,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "哈基米USDT",
+      {
+        "symbol": "哈基米USDT",
+        "type": "LONG",
+        "detectedAt": 1791073026590,
+        "price": 0.03036,
+        "stochH4": 19.070294784580415,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "TRADOORUSDT",
+      {
+        "symbol": "TRADOORUSDT",
+        "type": "LONG",
+        "detectedAt": 1791074196017,
+        "price": 0.6949,
+        "stochH4": 19.047619047618948,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ]
+  ],
+  "short": [
+    [
+      "MAGMAUSDT",
+      {
+        "symbol": "MAGMAUSDT",
+        "type": "SHORT",
+        "detectedAt": 1790993774044,
+        "price": 0.35629,
+        "stochH4": 88.80508725229221,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791031910522,
+          "score": 0,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "COHRUSDT",
+      {
+        "symbol": "COHRUSDT",
+        "type": "SHORT",
+        "detectedAt": 1790998060833,
+        "price": 336.5,
+        "stochH4": 94.5961319681456,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "GMEUSDT",
+      {
+        "symbol": "GMEUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791000659890,
+        "price": 25.42,
+        "stochH4": 92.77222011171615,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "JSTUSDT",
+      {
+        "symbol": "JSTUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791008311723,
+        "price": 0.13592,
+        "stochH4": 93.04511781805518,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "VSTUSDT",
+      {
+        "symbol": "VSTUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791023395622,
+        "price": 144.3,
+        "stochH4": 93.33738879556564,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ORCAUSDT",
+      {
+        "symbol": "ORCAUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791027547360,
+        "price": 1.787,
+        "stochH4": 89.0547263681592,
+        "strength": "MODERADO",
+        "status": "DETECTED",
+        "waitingQuality": {
+          "at": 1791048867524,
+          "score": 15,
+          "blockers": [
+            "volume",
+            "estrutura"
+          ]
+        }
+      }
+    ],
+    [
+      "CBRSUSDT",
+      {
+        "symbol": "CBRSUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791029261866,
+        "price": 177.04,
+        "stochH4": 90.46545704337215,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "RAYSOLUSDT",
+      {
+        "symbol": "RAYSOLUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791029282626,
+        "price": 2.0749,
+        "stochH4": 89.56151679050448,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "AVAUSDT",
+      {
+        "symbol": "AVAUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791029406722,
+        "price": 0.2719,
+        "stochH4": 92.40497567552472,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "COMPUSDT",
+      {
+        "symbol": "COMPUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791029895724,
+        "price": 24.66,
+        "stochH4": 88.08682766630615,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "YFIUSDT",
+      {
+        "symbol": "YFIUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791038866294,
+        "price": 2650,
+        "stochH4": 88.1057322883049,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "COINUSDT",
+      {
+        "symbol": "COINUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791058165864,
+        "price": 184.82,
+        "stochH4": 91.22987231818583,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "XMRUSDT",
+      {
+        "symbol": "XMRUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791059799214,
+        "price": 560.83,
+        "stochH4": 89.17661086851341,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "MSTRUSDT",
+      {
+        "symbol": "MSTRUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791060987781,
+        "price": 162.94,
+        "stochH4": 91.20207570207573,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "ZAMAUSDT",
+      {
+        "symbol": "ZAMAUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791062788587,
+        "price": 0.08815,
+        "stochH4": 88.1202899296706,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "CRCLUSDT",
+      {
+        "symbol": "CRCLUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791070411549,
+        "price": 82.42,
+        "stochH4": 89.3111479126037,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "CRVUSDT",
+      {
+        "symbol": "CRVUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791071016910,
+        "price": 0.3816,
+        "stochH4": 88.60470333050132,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "MORPHOUSDT",
+      {
+        "symbol": "MORPHOUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791072235946,
+        "price": 2.7554,
+        "stochH4": 88.25236177595421,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "VELODROMEUSDT",
+      {
+        "symbol": "VELODROMEUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791072285066,
+        "price": 0.03747,
+        "stochH4": 95.19814542582981,
+        "strength": "EXTREMO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "EULUSDT",
+      {
+        "symbol": "EULUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791072309378,
+        "price": 1.4278,
+        "stochH4": 88.14710535489225,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "AXLUSDT",
+      {
+        "symbol": "AXLUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791072372844,
+        "price": 0.05484,
+        "stochH4": 88.31760369019365,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "LINEAUSDT",
+      {
+        "symbol": "LINEAUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791072376043,
+        "price": 0.002831,
+        "stochH4": 90.47279880613202,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "POLUSDT",
+      {
+        "symbol": "POLUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791072889595,
+        "price": 0.10966,
+        "stochH4": 89.11988568037013,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "IOUSDT",
+      {
+        "symbol": "IOUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791072904235,
+        "price": 0.1689,
+        "stochH4": 88.3787404149395,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "IOTAUSDT",
+      {
+        "symbol": "IOTAUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791072952903,
+        "price": 0.05441,
+        "stochH4": 88.52459016393425,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "AAOIUSDT",
+      {
+        "symbol": "AAOIUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791072981493,
+        "price": 116.31,
+        "stochH4": 88.60665478312539,
+        "strength": "MODERADO",
+        "status": "DETECTED"
+      }
+    ],
+    [
+      "SYRUPUSDT",
+      {
+        "symbol": "SYRUPUSDT",
+        "type": "SHORT",
+        "detectedAt": 1791074747047,
+        "price": 0.25563,
+        "stochH4": 92.9056804695653,
+        "strength": "FORTE",
+        "status": "DETECTED"
+      }
+    ]
+  ],
+  "savedAt": "2026-10-04T00:57:53.353Z"
+}

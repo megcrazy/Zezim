@@ -1,0 +1,243 @@
+########## config.js ##########
+--- /mnt/user-data/uploads/config.js	2026-07-19 15:08:12.642861000 +0000
++++ config.js	2026-07-19 15:36:57.626316122 +0000
+@@ -152,6 +152,15 @@
+         TIMEZONE: process.env.STOCH_CCI_H4_TIMEZONE || "America/Sao_Paulo"
+     },
+ 
++    // ENERGIA / MOLA COMPRIMIDA: quantas vezes o H1 recarregou (mergulhou e voltou
++    // a 100+) enquanto o H4 seguia vivo. Validado em análise de research_outcomes.json:
++    // dentro da mesma faixa de idade, 3+ recargas teve hit50/hit100 e ganho médio
++    // consistentemente maiores. Ainda é sinal fraco (contexto), não filtro bloqueante.
++    ENERGY_CYCLES: {
++        MIN_CYCLES_FOR_SIGNAL: parseInt(process.env.ENERGY_MIN_CYCLES || "3"),
++        RESET_ON_H4_DEAD: process.env.ENERGY_RESET_ON_DEAD !== "false"
++    },
++
+     // SISTEMA OVOS DE OURO 
+     GOLD_EGG: {
+         ENABLED: process.env.GOLD_EGG_ENABLED !== "false",
+########## cci_egg_monitor.js ##########
+--- /mnt/user-data/uploads/cci_egg_monitor.js	2026-07-19 15:08:12.659300000 +0000
++++ cci_egg_monitor.js	2026-07-19 15:37:24.470593502 +0000
+@@ -348,6 +348,7 @@
+                 hitGainPct: null
+             },
+ 
++            energyCycles: 0,
+             lastEvent: 'REGISTERED',
+             lastEventAt: 0,
+             status: 'ACTIVE',
+@@ -431,6 +432,10 @@
+             : '';
+         const performanceBlock = this.buildPerformanceBlock(egg);
+         const outcomeNote = this.buildOutcomeNote(egg, event.code);
++        const energyCycles = Number.isFinite(event.energyCycles) ? event.energyCycles : (egg.energyCycles || 0);
++        const energyLine = energyCycles > 0
++            ? `⚡ Energia (recargas H1): ${energyCycles}${energyCycles >= 3 ? ' — mola comprimida' : ''}\n`
++            : '';
+ 
+         const h1LowRaw = this.rawFromSigned(egg.direction, egg.h1.lowestAfterHigh);
+         const h4LowRaw = this.rawFromSigned(egg.direction, egg.h4.lowestAfterHigh);
+@@ -439,6 +444,7 @@
+             `💹 *${egg.symbol}*\n` +
+             `📍 Direção: *${egg.direction}*\n` +
+             `⏰ Idade do ovo: ${ageHours}h\n` +
++            energyLine +
+             currentPriceLine +
+             performanceBlock +
+             `\n┌─ 📊 *CCI H1 — PULLBACK* ─────────\n` +
+@@ -570,9 +576,23 @@
+         }
+ 
+         const event = this.detectEvent(egg, previousH4RegimeCode);
++
++        // Contagem de energia (mola comprimida): conta o ciclo assim que detectado,
++        // independente do cooldown de envio ao Telegram. Reseta lostZero pra exigir
++        // um novo mergulho abaixo de zero antes de contar a próxima recarga —
++        // sem isso, o H1 parado acima de 100 re-disparava o mesmo evento a cada
++        // cooldown e inflava a contagem sem recarga real ter acontecido.
++        if (event?.code === 'H1_RELOADED') {
++            egg.energyCycles = (egg.energyCycles || 0) + 1;
++            egg.h1.lostZero = false;
++        }
++        if (event?.code === 'H4_DEAD') {
++            egg.energyCycles = 0;
++        }
++
+         if (event && this.shouldSend(egg, event.code)) {
+-            await this.sendTelegram(this.buildMessage(egg, event));
+-            this.recordResearchEvent(egg, event.code, { title: event.title });
++            await this.sendTelegram(this.buildMessage(egg, { ...event, energyCycles: egg.energyCycles }));
++            this.recordResearchEvent(egg, event.code, { title: event.title, energyCycles: egg.energyCycles });
+             this.markEvent(egg, event.code);
+         }
+     }
+@@ -602,6 +622,12 @@
+     getWatchingCount() {
+         return this.eggs.size;
+     }
++
++    // Energia acumulada (recargas H1) do ovo ativo pro símbolo, se houver.
++    getEnergyCycles(symbol) {
++        const egg = this.eggs.get(symbol);
++        return egg?.energyCycles || 0;
++    }
+ }
+ 
+ module.exports = CCIEggMonitor;
+########## alert_classifier.js ##########
+--- /mnt/user-data/uploads/alert_classifier.js	2026-07-19 15:08:12.658022000 +0000
++++ alert_classifier.js	2026-07-19 15:37:40.304661261 +0000
+@@ -81,7 +81,9 @@
+     h4RegimeCode = null,
+     triggerConfirmed = false,
+     isSecondLeg = false,
+-    isDead = false
++    isDead = false,
++    energyCycles = 0,
++    energyThreshold = 3
+ } = {}) {
+     const dir = direction === "SHORT" ? "SHORT" : "LONG";
+     const isLong = dir === "LONG";
+@@ -104,6 +106,7 @@
+     const volumeStrong = vol != null && vol >= 2;
+     const volumeOk = vol != null && vol >= 1.2;
+     const volumeWeak = vol != null && vol < 1;
++    const energyStrong = Number.isFinite(energyCycles) && energyCycles >= energyThreshold;
+     const oiAligned = isLong ? oiDirection === "UP" : oiDirection === "DOWN";
+     const oiAgainst = isLong ? oiDirection === "DOWN" : oiDirection === "UP";
+ 
+@@ -124,6 +127,7 @@
+     if (oiAligned) reasons.push(`OI ${oiDirection}${oiPct != null ? ` ${oiPct.toFixed(2)}%` : ""}`);
+     if (divFavor) reasons.push("divergencia a favor");
+     if (lsrFavor) reasons.push("baleias/LSR a favor");
++    if (energyStrong) reasons.push(`mola comprimida ${energyCycles}x`);
+ 
+     if (fiboAgainst) cautions.push("fibo contra");
+     if (fvgAgainst) cautions.push("FVG contra");
+@@ -143,7 +147,8 @@
+         oiAligned,
+         divFavor,
+         lsrFavor,
+-        h4RegimeCode === "IMPULSE"
++        h4RegimeCode === "IMPULSE",
++        energyStrong
+     ].filter(Boolean).length;
+ 
+     let quality;
+########## research_recorder.js ##########
+--- /mnt/user-data/uploads/research_recorder.js	2026-07-19 15:08:12.640711000 +0000
++++ research_recorder.js	2026-07-19 15:37:50.060134527 +0000
+@@ -132,6 +132,13 @@
+         }
+         if (setup.classification?.againstCount >= 2) tags.push("classified_conflict");
+ 
++        const energyCycles = this.normalizeNumber(setup.energyCycles);
++        if (energyCycles != null) {
++            if (energyCycles >= 3) tags.push("energy_3plus");
++            else if (energyCycles >= 1) tags.push("energy_1_2");
++            else tags.push("energy_0");
++        }
++
+         return Array.from(new Set(tags));
+     }
+ 
+@@ -174,6 +181,7 @@
+                 divergence: setup.divergence || null,
+                 classification: setup.classification || null,
+                 quality: setup.quality || null,
++                energyCycles: this.normalizeNumber(setup.energyCycles),
+                 tags: this.inferTags(setup)
+             };
+ 
+########## bot_principal_monitor.js ##########
+--- /mnt/user-data/uploads/bot_principal_monitor.js	2026-07-19 15:08:12.652672000 +0000
++++ bot_principal_monitor.js	2026-07-19 15:38:46.670160577 +0000
+@@ -892,7 +892,8 @@
+     h4CCI,
+     hasEgg,
+     source,
+-    phase
++    phase,
++    energyCycles
+ }) {
+     const h4Regime = classifyH4CCIRegime(h4CCI, direction);
+     const cleanLsr = cleanLSR(lsr, lsrResult);
+@@ -915,7 +916,9 @@
+         h4RegimeCode: h4Regime?.code,
+         triggerConfirmed: true,
+         hasEgg: !!hasEgg,
+-        source
++        source,
++        energyCycles: energyCycles || 0,
++        energyThreshold: CONFIG?.ENERGY_CYCLES?.MIN_CYCLES_FOR_SIGNAL ?? 3
+     });
+ }
+ 
+@@ -945,7 +948,8 @@
+     hasEgg,
+     qualityGate,
+     h4CrossContext,
+-    classification
++    classification,
++    energyCycles
+ }) {
+     try {
+         const h4Regime = classifyH4CCIRegime(h4CCI, direction);
+@@ -957,6 +961,7 @@
+             alertNumber,
+             isTurbo,
+             hasEgg,
++            energyCycles: energyCycles || 0,
+             cciH1: cci,
+             cciH4: h4CCI?.current,
+             h4RegimeCode: h4Regime?.code,
+@@ -1412,6 +1417,7 @@
+             openInterest: openInterestContext,
+             h4CCI,
+             hasEgg: true,
++            energyCycles: cciEggMonitor.getEnergyCycles(symbol),
+             source: "GOLD_EGG_TRIGGER"
+         });
+         const classificationBlock = buildClassificationBlock(classification);
+@@ -1464,6 +1470,7 @@
+             alertNumber: null,
+             isTurbo: Math.abs(cci) >= CONFIG.INDICATORS.CCI.TURBO_THRESHOLD,
+             hasEgg: true,
++            energyCycles: cciEggMonitor.getEnergyCycles(symbol),
+             qualityGate,
+             h4CrossContext,
+             classification
+@@ -1555,6 +1562,7 @@
+             openInterest: openInterestContext,
+             h4CCI,
+             hasEgg: true,
++            energyCycles: cciEggMonitor.getEnergyCycles(symbol),
+             source: "GOLD_EGG_TRIGGER"
+         });
+         const classificationBlock = buildClassificationBlock(classification);
+@@ -1607,6 +1615,7 @@
+             alertNumber: null,
+             isTurbo: Math.abs(cci) >= CONFIG.INDICATORS.CCI.TURBO_THRESHOLD,
+             hasEgg: true,
++            energyCycles: cciEggMonitor.getEnergyCycles(symbol),
+             qualityGate,
+             h4CrossContext,
+             classification
+@@ -1806,6 +1815,7 @@
+         openInterest: openInterestContext,
+         h4CCI,
+         hasEgg,
++        energyCycles: cciEggMonitor.getEnergyCycles(symbol),
+         source: "SETUP_ALERT"
+     });
+     const classificationBlock = buildClassificationBlock(classification);
+@@ -1862,6 +1872,7 @@
+         alertNumber,
+         isTurbo,
+         hasEgg,
++        energyCycles: cciEggMonitor.getEnergyCycles(symbol),
+         qualityGate: null,
+         h4CrossContext,
+         classification
